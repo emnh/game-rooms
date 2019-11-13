@@ -1,0 +1,35 @@
+{
+  "name": "game-rooms",
+  "version": "1.0.0",
+  "description": "Game Rooms",
+  "main": "src/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot",
+    "webpack": "webpack -w",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emnh/game-rooms.git"
+  },
+  "author": "Eivind Magnus Hvidevold <hvidevold@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emnh/game-rooms/issues"
+  },
+  "homepage": "https://github.com/emnh/game-rooms#readme",
+  "dependencies": {
+    "d3": "^5.12.0",
+    "express": "^4.17.1",
+    "express-logging": "^1.1.1",
+    "isolated-vm": "^2.0.1",
+    "jquery": "^3.4.1",
+    "logops": "^2.1.1",
+    "nedb": "^1.8.0",
+    "pixi.js": "^5.2.0",
+    "three": "^0.110.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

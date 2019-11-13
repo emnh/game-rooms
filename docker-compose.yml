@@ -1,0 +1,13 @@
+version: "2"
+services:
+  node:
+    image: "node:10"
+    user: "node"
+    working_dir: /home/emh/game-rooms
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/emh/game-rooms
+    expose:
+      - "8081"
+    command: "npm start"
